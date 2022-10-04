@@ -1,0 +1,64 @@
+* {
+	border: 2px solid black;
+	padding: 15px;
+	margin: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,div,header,footer {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+html {
+	width: 100%;
+}
+
+header,footer {
+	display: block;
+}
+
+body {
+	max-width: 50%;
+	margin: 20px auto;
+}
+
+li,ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+output {
+	padding: 15px;
+	margin: 2px;
+}
+
+.main-header	{
+	display: block;
+	text-align: center;
+	border: 1px;
+}
+
+.input-text fieldset{
+	margin-top: 5px;
+}
+
+.input-text button {
+	padding: 4px 12px ;
+  	display: inline-block;
+  	text-align: center;
+  	background-color: #2a2a2a;
+  	box-shadow: none;
+  	border: 1px solid transparent;
+  	color: #fff;
+  	transition: all 0.3s;
+	align-items: center;
+}
+
+.input-text button:hover {
+	background-color: #fff;
+	border: 1px solid #2a2a2a;
+	color: #2a2a2a;
+}

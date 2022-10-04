@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OI Put</title>
+	<link rel="stylesheet" href="OIput.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome.css">
+</head>
+<body>
+	<header class="header">
+		<h1>Input Output</h1>
+	</header>
+	<div class="main-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="input-text" id="input_text">
+						<h3>Input Text</h3>
+						<div class="row">
+							<div class="col-lg-12">
+								<fieldset>
+									<input type="text" id="is_nameWork" placeholder="Your Work">
+								</fieldset>	
+							</div>
+							<div class="col-lg-12">
+								<fieldset>
+									<input type="text" id="is_sectionWork" placeholder="Your Section">
+								</fieldset>
+							</div>
+							<div class="col-lg-12">
+								<fieldset>
+									<textarea name="text" id="is_description" cols="30" rows="10" placeholder="Description"></textarea>
+								</fieldset>
+							</div>
+							<div class="col-lg-12">
+								<fieldset>
+									<button type="submit" onclick="is_save()">Save
+									</button>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="output-text" id="outPut_text">
+						<h3>Output Text</h3>
+						<div id="row">
+							<div class="col-lg-12">
+								<fieldset>
+									<output	 id="resultWork" placeholder="Result Work"></output>
+								</fieldset>
+							</div>
+							<div class="col-lg-12">
+								<fieldset>
+									<output id="resultSection"></output>
+								</fieldset>
+							</div>
+							<div class="col-lg-12">
+								<fieldset>
+									<output id="isDesc"></output>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+
+	</footer>
+	<script src="OIput.js"></script>
+</body>
+</html>
